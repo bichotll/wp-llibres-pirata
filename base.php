@@ -13,7 +13,7 @@
   ?>
 
   <div id="wrap" class="container" role="document">
-    <div id="content" class="row">
+    <div id="content" class="row-fluid">
       <div id="main" class="<?php roots_main_class(); ?>" role="main">
         <?php include roots_template_path(); ?>
       </div>
