@@ -71,10 +71,12 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 .hentry header { }
 .hentry time {
   font-size: 12px;
+  margin-left: 5px;
 }
 .hentry p.byline {
   float: right;
   font-size: 12px;
+  margin-right: 5px;
 }
 .hentry .entry-content { }
 .hentry footer { }
