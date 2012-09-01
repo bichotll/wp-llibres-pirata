@@ -18,6 +18,7 @@ a{
 
 .navbar-inverse .navbar-inner{
   opacity: 0.9;
+  -moz-opacity: 0.9;
 }
 
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
@@ -44,7 +45,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 }
 
 #wrap{
-  width: 960px;
+  max-width: 960px;
 }
 
 /* ==========================================================================
@@ -78,7 +79,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 .hentry .entry-content { }
 .hentry footer { }
 
-.entry-content, #comments, #pings, #no-comments, #respond{
+.entry-content, #comments, #pings, #no-comments, #respond, .widget{
   background: #fff;
   margin: 0 0 20px 0;
   position: relative;
@@ -91,6 +92,14 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
   -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;  
     box-sizing: border-box;    
+}
+
+.widget h3{
+  font-size: 22px;
+  line-height: 35px;
+  background: whiteSmoke;
+  border-bottom: 1px solid #F0F0F0;
+  padding-left: 5px;
 }
 
 .entry-content{

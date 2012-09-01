@@ -14,6 +14,7 @@ require_once locate_template('/lib/widgets.php');         // Sidebars and widget
 require_once locate_template('/lib/template-tags.php');   // Template tags
 require_once locate_template('/lib/actions.php');         // Actions
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
+require_once locate_template('/lib/jw_custom_posts.php'); // Custom post types class
 require_once locate_template('/lib/post-types.php');      // Custom post types
 require_once locate_template('/lib/metaboxes.php');       // Custom metaboxes
 require_once locate_template('/lib/custom.php');          // Custom functions
